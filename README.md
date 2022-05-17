@@ -85,6 +85,10 @@ _defaults = {
 
 2. 在eval.py文件中，根据提示选择参数即可。
 
+## 5. 参考
+https://github.com/PaddlePaddle/PaddleClas/blob/release/2.3/ppcls/arch/backbone/model_zoo/mobilenet_v2.py
+
+
 
 
 
