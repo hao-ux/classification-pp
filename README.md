@@ -56,6 +56,12 @@ network = "MobileNetv2"
 model_path = ""
 ```
 
+训练结束后可以使用如下命令查看训练过程可视化的参数：
+```txt
+visualdl --logdir ./logs1 --port 8080
+```
+
+
 ## 4. 预测步骤
 
 **注意：需要数据准备之后进行此步骤**
