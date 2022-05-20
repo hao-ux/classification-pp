@@ -10,6 +10,9 @@
 
 ## 2. 数据准备
 
+数据集链接：https://pan.baidu.com/s/1zs9U76OmGAIwbYr91KQxgg
+提取码：bhjx
+
 数据文件夹格式如下：
 ```python
 - datasets
