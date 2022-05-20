@@ -32,7 +32,7 @@
 运行txt_annotation.py文件后，会在根目录下生成两个txt文件，分别为cls_test.txt以及cls_train.txt。
 
 
-## 2. 训练步骤
+## 3. 训练步骤
 1. 在train.py中实现，需要指定的参数如下：
 ```python
 # ------------------------------------------------ #
@@ -56,7 +56,7 @@ network = "MobileNetv2"
 model_path = ""
 ```
 
-## 3. 预测步骤
+## 4. 预测步骤
 
 **注意：需要数据准备之后进行此步骤**
 1. 首先在classification.py文件中，指定参数，如下：
@@ -72,7 +72,7 @@ _defaults = {
 
 2. 运行predict.py，根据提示选择参数即可。
 
-## 4. 评估步骤
+## 5. 评估步骤
 **注意：需要数据准备之后进行此步骤**
 
 1. 首先在classification.py文件中，指定参数，如下：
@@ -88,7 +88,7 @@ _defaults = {
 
 2. 在eval.py文件中，根据提示选择参数即可。
 
-## 5. 参考
+## 6. 参考
 https://github.com/PaddlePaddle/PaddleClas/blob/release/2.3/ppcls/arch/backbone/model_zoo/mobilenet_v2.py
 
 
