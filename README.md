@@ -63,7 +63,7 @@ model_path = ""
 
 ```python
 _defaults = {
-        "model_path": "./logs/57", # 权重路径
+        "model_path": "./model_data/mobilenetv2", # 权重路径
         "classes_path": "./datasets/test", # 数据集路径
         "input_shape": [224, 224],  # 输入图片大小
         "backbone": "MobileNetv2", # 网络结构
